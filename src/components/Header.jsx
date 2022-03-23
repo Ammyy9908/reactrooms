@@ -12,9 +12,9 @@ function Header({ user }) {
         <a href="#app-name" className="app-name">
           React Rooms
         </a>
-        <a href="#user" className="user-acount" onClick={handleLogout}>
-          {user ? "Logout" : "Login"}
-        </a>
+    {user && <a href="#user" className="user-acount" onClick={handleLogout}>
+          Logout
+        </a>}
       </div>
     </div>
   );
