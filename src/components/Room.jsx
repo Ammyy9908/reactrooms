@@ -46,7 +46,7 @@ function Room({ room, user }) {
           </Link>
         ) : (
           <GoogleLogin
-            clientId="726425264782-mfrlshpct6i6k5sqacjqvdnvunu6jnit.apps.googleusercontent.com"
+            clientId="726425264782-nq6tcfrqt689q3gph51a67sq6fi8v9qi.apps.googleusercontent.com"
             render={(renderProps) => (
               <button
                 className="new-group-btn join_btn"
