@@ -34,7 +34,7 @@ function Home({ user, addRoom, rooms }) {
     e.preventDefault();
     if (name && description) {
       try {
-        const r = await axios.post(`http://localhost:5000/roomapi/new`, {
+        const r = await axios.post(`https://group-chat-serverreact.herokuapp.com/roomapi/new`, {
           name,
           description,
           author: {
